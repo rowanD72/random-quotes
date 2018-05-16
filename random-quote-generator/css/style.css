@@ -1,0 +1,45 @@
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #678;
+}
+
+.jumbotron {
+  background-color: #888;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+hr {
+  border-width: 5px;
+  
+}
+
+#quoteBtn {
+  float: left;
+  clear: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#twitterBtn {
+  float: right;
+  clear: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#message {
+  color: #fff;
+  margin: 10px 10px;
+  padding: 5px;
+}
